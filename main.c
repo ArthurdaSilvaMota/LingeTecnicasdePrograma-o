@@ -13,7 +13,7 @@ int main(int argc, char *argv[]) {
     scanf("%f", &raio);
     
 	r2 = raio*raio;
-	//raio *= raio; esse é um outro jeito de fazer "raio vezes raio" 
+	//raio *= raio; esse Ã© um outro jeito de fazer "raio vezes raio" 
 	area = pi*r2;
 	
 	printf("A Area do circulo de raio %f = %f", raio, area);
@@ -34,7 +34,7 @@ int main(int argc, char *argv[]) {
 	scanf("%f", &h);
 	
 	area = (basemaior + basemenor)*h /2;
-	printf("A area do trapezio %f = %f", basemaior, basemenor, h);
+	printf("A area do trapezio %f = %f", area);
 	
 	return 0;
 }
