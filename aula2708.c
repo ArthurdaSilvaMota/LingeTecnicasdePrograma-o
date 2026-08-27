@@ -16,7 +16,7 @@ int main(int argc, char *argv[]) {
 			if((a==2 || a==3 || a==5 || a==7) && (b==2 || b==3 || b==5 || b==7)){
 				r = (a*b)/2;
 				h = sqrt((pow(a,2) + pow(b,2)));
-				printf("area %d e hipotenusa %d", r);
+				printf("area %d e hipotenusa %d", r, h);
 			}else{
 				sum = a+b;
 				sub = a-b;
