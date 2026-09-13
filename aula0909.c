@@ -32,7 +32,7 @@ int main(int argc, char *argv[]) {
 			multDigito(dg7,5) + multDigito(dg8,4) + multDigito(dg9,3) + multDigito(dgv,2);
 			
 	soma *=10;
-	resto = soma%11;
+	restoII = soma%11;
 	if (restoII == 10) resto = 0;
 	printf("\n%d", restoII);
 	
